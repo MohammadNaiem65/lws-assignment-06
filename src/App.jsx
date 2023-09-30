@@ -1,10 +1,11 @@
+import './App.css';
+import Home from './pages/Home/Home';
 
 function App() {
-
 	return (
-		<div className="w-full min-h-screen bg-slate-900 text-white">
-			<h1>Redux is cooking</h1>
-		</div>
+		<>
+			<Home />
+		</>
 	);
 }
 
