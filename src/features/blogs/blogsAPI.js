@@ -1,7 +1,7 @@
-import axios from '../../utils/axios';
+import axiosInstance from '../../utils/axios';
 
 const getBlogs = async () => {
-	const response = await axios.get('/blogs');
+	const response = await axiosInstance.get('/blogs');
 
 	return response.data;
 };
